@@ -1,6 +1,6 @@
 ﻿namespace console;
 
-public class Class1
+public class ConApp
 {
 
 }

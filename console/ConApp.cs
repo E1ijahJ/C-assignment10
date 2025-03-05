@@ -6,7 +6,12 @@ using System.Linq.Expressions;
 
 public class ConApp
 {
-  static void Main(){
+    public static void DisplayQuarters(List<Quarter> quarters)
+    {
+        throw new NotImplementedException();
+    }
+
+    public static void Main(){
 Except except = new Except();
 List<Quarter> quarters = new List<Quarter>();
 Console.WriteLine("Quarters app");

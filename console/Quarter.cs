@@ -15,7 +15,7 @@ public class Quarter : IComparable<Quarter>
         Amount = amount;
     }
 
-    private int GetQuarter()
+    public int GetQuarter()
     {
         if (Amount < 0.25) return 1;
         if (Amount < 0.5) return 2;
